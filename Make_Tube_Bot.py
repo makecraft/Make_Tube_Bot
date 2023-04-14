@@ -1,5 +1,7 @@
 from __future__ import unicode_literals
 from pyrogram import Client
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.types import CallbackQuery, Message
 import yt_dlp
 
 app = Client("Make_Tube_Bot")
