@@ -17,7 +17,7 @@ ydl_opts = {
     'progress_hooks': [my_hook],  
 }
 
-#Código para descargar video previamente definido en una variable
+#Código para descargar video previamente definido en una variable o enlace
 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
     ydl.download([''])
 
