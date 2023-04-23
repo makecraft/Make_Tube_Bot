@@ -6,6 +6,9 @@ import yt_dlp
 
 app = Client("Make_Tube_Bot")
 
+class pyrogram:Client(
+        workdir="~/.cache"
+)
 
 # Hook que imprime un mensaje cuando yt-dlp envia el estado de finished
 def my_hook(d):
